@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #faeedc;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.dogs-family {
+  width: 100%;
+  object-fit: contain;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10rem;
+}
+h2 {
+  text-align: center;
+}
+
+.one {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding: 2.5rem;
+  top: 0px;
+  background-color: #fae6c8;
+  border: rgb(206, 190, 190) solid 0.5px;
+}
+.menu {
+  width: 1rem;
+}
+button,
+.menu {
+  background-color: #ed4c4c;
+}
+a {
+  text-decoration: none;
+  color: #ed4c4c;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: fantasy;
+  overflow: hidden;
+  display: inline;
+}
+
+a:hover {
+  color: black;
+}
+a:active {
+  color: green;
+}
+
+.aboutdogs,
+.origin,
+ul {
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+p {
+  text-align: center;
+  display: inline;
+}
+.image-origin {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 2rem;
+}
+
+.dog {
+  margin: 2rem;
+}
+
+h3 {
+  text-align: center;
+  margin: 3rem;
+}
+
+.footer {
+  background-color: tan;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.footer p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 2.5rem;
+  }
+  nav a {
+    display: inline;
+    font-family: fantasy;
+  }
+  h1 {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .aboutdogs {
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  h3 {
+    margin: 1rem;
+  }
+
+  .image-origin {
+    width: 90%;
+    margin: auto;
+  }
+
+  ul {
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  footer h3 {
+    font-size: 1rem;
+  }
+}
